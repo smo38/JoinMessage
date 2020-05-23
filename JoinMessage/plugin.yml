@@ -1,0 +1,21 @@
+name: JoinMessage
+
+api: 3.0.0
+
+main: JoinMessage\Main
+
+version: 2.0.0
+
+description: コマンドで参加メッセージを変更
+
+author: smo
+
+commands:
+ setjm:
+  usage: /setjm <プレイヤー名> <参加メッセージ>
+  description:  参加メッセージ変更コマンド
+  permission: setjm.op
+
+ permissions:
+   setjm.op:
+     default: op
